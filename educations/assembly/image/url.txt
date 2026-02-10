@@ -1,1 +1,0 @@
-img src="https://raw.githubusercontent.com/ghasemarianpour/neuromorphic/refs/heads/main/educations/assembly/image/" alt="" width=""
