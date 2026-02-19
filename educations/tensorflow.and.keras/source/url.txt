@@ -1,1 +1,1 @@
-https://github.com/ghasemarianpour/neuromorphic/tree/main/educations/tensorflow.%26.keras/source/
+https://github.com/ghasemarianpour/neuromorphic/tree/main/educations/tensorflow.and.keras/source/
