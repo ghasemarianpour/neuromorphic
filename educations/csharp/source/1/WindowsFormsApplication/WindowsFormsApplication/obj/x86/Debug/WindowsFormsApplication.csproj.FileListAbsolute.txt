@@ -1,8 +1,0 @@
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.pdb
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\obj\x86\Debug\WindowsFormsApplication.MyApp.resources
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\obj\x86\Debug\WindowsFormsApplication.Properties.Resources.resources
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\obj\x86\Debug\WindowsFormsApplication.csproj.GenerateResource.Cache
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\obj\x86\Debug\WindowsFormsApplication.exe
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\obj\x86\Debug\WindowsFormsApplication.pdb
-F:\CSharp\source\project_1\WindowsFormsApplication\WindowsFormsApplication\obj\x86\Debug\WindowsFormsApplication.csprojResolveAssemblyReference.cache
