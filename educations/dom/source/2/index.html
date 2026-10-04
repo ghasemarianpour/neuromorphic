@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting Elements</title>
+</head>
+
+<body>
+
+    <!-- ID -->
+    <h2 id="Result"></h2>
+
+    <script>
+        document.getElementById("Result").innerHTML = "نتیجه";
+    </script>
+
+    <h2 id="Result_1"></h2>
+    <h2 id="Result_1"></h2>
+    <h2 id="Result_1"></h2>
+
+    <script>
+        document.getElementById("Result_1").innerHTML = "Result_1";
+    </script>
+
+    <!-- Class -->
+    <h2 class="Result1"></h2>
+    <h2 class="Result1"></h2>
+    <h2 class="Result1"></h2>
+
+    <script>
+        document.getElementsByClassName("Result1")[0].innerHTML="سلام خوبی؟";
+        document.getElementsByClassName("Result1")[1].innerHTML="به آموزشگاه نورومورفیک";
+        document.getElementsByClassName("Result1")[2].innerHTML="خوش اومدی";
+    </script>
+
+    <!-- Tag Name -->
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+
+    <script>
+        document.getElementsByTagName("h3")[0].innerHTML="سلام خوبی؟";
+        document.getElementsByTagName("h3")[1].innerHTML="به آموزشگاه نورومورفیک";
+        document.getElementsByTagName("h3")[2].innerHTML="خوش اومدی";
+    </script>
+
+    <!-- Element Name -->
+    <input type="text" name="user_name" value="neuromorphic">
+
+    <script>
+        document.getElementsByName("user_name")[0].value;
+    </script>
+
+    <!-- querySelectorAll -->
+    <h4 class="test"></h4>
+    <h4 class="test"></h4>
+    <h4></h4>
+    <p id="neuromorphic"></p>
+    <p id="neuromorphic"></p>
+    <p name="title"></p>
+    <span></span>
+    <span></span>
+
+    <script>
+        document.querySelectorAll("h4.test")[0].innerHTML = "نورومورفیک";
+    </script>
+
+    <script>
+        var MyTag = document.querySelectorAll("h4,p,span");
+        var i;
+
+        for (i = 0; i < MyTag.length; i++) {
+            MyTag[i].innerHTML = "نورومورفیک";
+        }
+    </script>
+
+    <script>
+        var MyTag = document.querySelectorAll("p#neuromorphic");
+        var i;
+
+        for (i = 0; i < MyTag.length; i++) {
+            MyTag[i].style.color = "blue";
+            MyTag[i].style.textAlign = "center";
+        }
+    </script>
+
+    <script>
+        var MyTitle = document.querySelector('p[name="title"]');
+        MyTitle.style.color = "red";
+    </script>
+
+    <!-- querySelectorA -->
+    <h2 class="iai">IAI</h2>
+    <h2 class="iai">IAI</h2>
+
+    <script>
+        var MyTag;
+        MyTag = document.querySelector("h2.iai");
+        MyTag.style.color = "blue";    
+    </script>
+
+</body>
+</html>
